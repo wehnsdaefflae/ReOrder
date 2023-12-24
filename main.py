@@ -19,7 +19,7 @@ def assign_new_place(path: pathlib.Path, paths_available: list[pathlib.Path], de
             f"Available paths:\n"
             f"{optional_targets}\n"
             f"\n"
-            f"Where should the folder above be moved to?\n"
+            f"Where should the folder above be moved to (enter new path if none fits)?\n"
             f"Enter the new path: "
         )
         answer = input(question)
